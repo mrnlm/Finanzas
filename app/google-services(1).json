@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "842202376964",
+    "project_id": "misfinanzas-7605c",
+    "storage_bucket": "misfinanzas-7605c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842202376964:android:06f4eb62137c874a923e51",
+        "android_client_info": {
+          "package_name": "com.example.misfinanzas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842202376964-5ij3bfu9ph4ocf7j59ajuhcap0rg15k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOWUklbsG4_oK1siCsOUecEFLlFIE4vtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842202376964-5ij3bfu9ph4ocf7j59ajuhcap0rg15k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

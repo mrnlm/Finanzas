@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Egresos">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewSize">
+
+        <TextView
+            android:id="@+id/textRegistraEgreso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="14dp"
+            android:text="@string/registroEgreso"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/campoCantidadEgreso"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/campoCantidadEgreso"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/ingresaCantidad"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#78909C"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textRegistraEgreso" />
+
+
+        <Button
+            android:id="@+id/btnGuardarEgreso"
+            android:layout_width="182dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="610dp"
+            android:backgroundTint="#58CD81"
+            android:fontFamily="casual"
+            android:text="@string/btnGuardarEgreso"
+            android:textAllCaps="false"
+            android:textColor="#1C1818"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/gpEgresos"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnGuardarEgreso"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campoCantidadEgreso">
+
+            <RadioButton
+                android:id="@+id/rdBtnAlimentacion"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnAlimentacion"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/rdBtnCuidadoPersonal"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnCuidadoPersonal"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/rdBtnEntretenimiento"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnEntretenimiento"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/rdBtnImpuestos"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/rdBtnImpuestos" />
+
+            <RadioButton
+                android:id="@+id/rdBtnIndumentaria"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnIndumentaria"
+                tools:ignore="TouchTargetSizeCheck" />
+            <RadioButton
+                android:id="@+id/rdBtnLimpieza"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnLimpieza"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/rdBtnSalud"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnSalud"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/rdBtnServicios"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnServicios"
+                tools:ignore="TouchTargetSizeCheck" />
+            <RadioButton
+                android:id="@+id/rdBtnViaticos"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnViaticos"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/rdBtnVivienda"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnVivienda"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+            <RadioButton
+                android:id="@+id/rdBtnOtros"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="@string/rdBtnOtros"
+                tools:ignore="TouchTargetSizeCheck" />
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

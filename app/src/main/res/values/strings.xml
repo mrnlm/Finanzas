@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MisFinanzas</string>
+    <string name="btnAgregarEgreso">Agregar egreso</string>
+    <string name="btnAgregarIngreso">Agregar ingreso</string>
+    <string name="btnDetalles">Detalles</string>
+    <string name="txtIngresos">Ingresos</string>
+    <string name="txtEgresos">Egresos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="registroIngreso">Guarda Ingreso</string>
+    <string name="ingresaCantidad">ingresaCantidad</string>
+    <string name="rdBtnNomina">Nómina</string>
+    <string name="rdBtnBeca">Beca</string>
+    <string name="rdBtnFreelance">Freelance</string>
+    <string name="rdBtnExtras">Extras</string>
+    <string name="registroEgreso">Guarda Egreso</string>
+    <string name="rdBtnVivienda">Vivienda</string>
+    <string name="rdBtnServicios">Servicios</string>
+    <string name="rdBtnViaticos">Viáticos</string>
+    <string name="rdBtnSalud">Salud</string>
+    <string name="rdBtnLimpieza">Limpieza</string>
+    <string name="rdBtnImpuestos">Impuestos</string>
+    <string name="rdBtnAlimentacion">Alimentación</string>
+    <string name="rdBtnIndumentaria">Indumentaria</string>
+    <string name="rdBtnCuidadoPersonal">Cuidado Personal</string>
+    <string name="rdBtnEntretenimiento">Entretenimiento</string>
+    <string name="rdBtnOtros">Otros</string>
+    <string name="detalles">Detalles</string>
+    <string name="btnGuardarIngreso">Guardar</string>
+    <string name="btnGuardarEgreso">Guardar</string>
+</resources>
